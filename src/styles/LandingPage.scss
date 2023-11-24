@@ -1,0 +1,33 @@
+.mainNav {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+
+  height: 150px;
+  margin: 30px;
+  &_logo {
+    &--img {
+      height: 50px;
+    }
+  }
+  &_links {
+    text-decoration: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.25rem;
+    &--ul {
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+      list-style: none;
+      /*  transform: translate(350px, -10px); */
+    }
+    &--ulli {
+      text-decoration: none;
+    }
+  }
+}
+
+.mainNav_links--ulli a {
+  text-decoration: none;
+  color: #8d8c57;
+}
